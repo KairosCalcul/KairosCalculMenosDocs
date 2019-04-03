@@ -1,0 +1,462 @@
+
+.formulario	{
+	background-color: #333;
+	position: absolute;
+	left: 63%;
+	top: 43%;
+	padding: 50px 80px 100px 0px;
+	box-shadow: 0 0 3px 1px;
+}
+.tituloFormulario{
+	position: relative;
+	width: 300px;
+	left: 50px;
+	top: -50px;
+	font-family: Lucida Sans Unicode;
+	color: white;
+}
+.inputFormulario{
+	position: absolute;
+	left: 25%;
+	border: 6px solid transparent;
+	top: 35%;
+}
+.boton1{
+	-webkit-border-radius: 7;
+  -moz-border-radius: 7;
+  border-radius: 7px;
+
+  font-family: Lucida Sans Unicode;
+  color: white;
+  font-size: 20px;
+  background:#333;
+  padding: 0px 10px 0px 10px;
+  border: sólido #000000 2px;
+  text-decoration: none;
+  position:absolute;
+  left: 71%;
+  top: 65%;
+}
+.boton1:hover {
+  background: #555555;
+  text-decoration: none;
+}
+.boton2{
+	-webkit-border-radius: 7;
+  -moz-border-radius: 7;
+  border-radius: 7px;
+  color: white;
+  font-family: Lucida Sans Unicode;
+
+  font-size: 20px;
+  background:#333;
+  padding: 0px 10px 0px 10px;
+  border: sólido #000000 2px;
+  text-decoration: none;
+  position:absolute;
+  left: 60%;
+  top: 30%;
+}
+.boton2:hover {
+  background: #555555  ;
+  text-decoration: none;
+}
+.boton3{
+	-webkit-border-radius: 7;
+  -moz-border-radius: 7;
+  border-radius: 7px;
+
+  font-family: Lucida Sans Unicode;
+  color: white;
+  font-size: 20px;
+  background:#333;
+  padding: 0px 10px 0px 10px;
+  border: sólido #000000 2px;
+  text-decoration: none;
+  position:absolute;
+  left: 70%;
+  top: 30%;
+}
+.boton3:hover {
+  background:  #555555;
+  text-decoration: none;
+}
+.boton4{
+	-webkit-border-radius: 7;
+  -moz-border-radius: 7;
+  border-radius: 7px;
+
+  font-family: Lucida Sans Unicode;
+  color: white;
+  font-size: 20px;
+  background:#333;
+  padding: 0px 10px 0px 10px;
+  border: sólido #000000 2px;
+  text-decoration: none;
+  position:absolute;
+  left: 82%;
+  top: 30%;
+}
+.boton4:hover {
+  background: #555555;
+  text-decoration: none;
+}
+.titulo{
+  position: relative;
+  width: 500px;
+  left: 65%;
+  top: -490px;
+  font-family: Lucida Sans Unicode;
+  font-size: 40px;
+
+}
+.logo{
+  position: relative;
+  top: 70px;
+  left: 10%;
+}
+
+@media (max-width: 1024px) and (max-height: 600px) {
+    body {
+
+          }
+          .titulo{
+            position: absolute;
+            width: 500px;
+            left: 10%;
+            top: -1%;
+            font-family: Lucida Sans Unicode;
+            font-size: 40px;
+            color: black;
+          }
+
+        .logo{
+          position: absolute;
+          top: 20%;
+          left: 7%;
+          width: 380px;
+          height: 380px;
+        }
+
+        .formulario	{
+        	background-color: #333;
+        	position: absolute;
+        	left: 55%;
+        	top: 43%;
+        	padding: 50px 80px 100px 0px;
+        	box-shadow: 0 0 3px 1px;
+        }
+
+        .boton1{
+        	-webkit-border-radius: 7;
+          -moz-border-radius: 7;
+          border-radius: 7px;
+          font-family: Lucida Sans Unicode;
+          color: white;
+          font-size: 20px;
+          background:#333;
+          padding: 0px 10px 0px 10px;
+          border: sólido #000000 2px;
+          text-decoration: none;
+          position:absolute;
+          left: 66%;
+          top: 65%;
+        }
+
+        .boton1:hover {
+          background: #555555;
+          text-decoration: none;
+        }
+        .boton2{
+        	-webkit-border-radius: 7;
+          -moz-border-radius: 7;
+          border-radius: 7px;
+          color: white;
+          font-family: Lucida Sans Unicode;
+          font-size: 20px;
+          background:#333;
+          padding: 0px 10px 0px 10px;
+          border: sólido #000000 2px;
+          text-decoration: none;
+          position:absolute;
+          left: 52%;
+          top: 30%;
+        }
+
+        .boton2:hover {
+          background: #555555  ;
+          text-decoration: none;
+        }
+
+        .boton3{
+        	-webkit-border-radius: 7;
+          -moz-border-radius: 7;
+          border-radius: 7px;
+          font-family: Lucida Sans Unicode;
+          color: white;
+          font-size: 20px;
+          background:#333;
+          padding: 0px 10px 0px 10px;
+          border: sólido #000000 2px;
+          text-decoration: none;
+          position:absolute;
+          left: 65%;
+          top: 30%;
+        }
+
+        .boton3:hover {
+          background:  #555555;
+          text-decoration: none;
+        }
+
+        .boton4{
+        	-webkit-border-radius: 7;
+          -moz-border-radius: 7;
+          border-radius: 7px;
+          font-family: Lucida Sans Unicode;
+          color: white;
+          font-size: 20px;
+          background:#333;
+          padding: 0px 10px 0px 10px;
+          border: sólido #000000 2px;
+          text-decoration: none;
+          position:absolute;
+          left: 81%;
+          top: 30%;
+        }
+
+        .boton4:hover {
+          background: #555555;
+          text-decoration: none;
+        }
+}
+
+@media (max-width: 1024px) and (max-height: 768px) {
+    body {
+
+          }
+          .titulo{
+            position: absolute;
+            width: 500px;
+            left: 10%;
+            top: -1%;
+            font-family: Lucida Sans Unicode;
+            font-size: 40px;
+            color: black;
+          }
+
+        .logo{
+          position: absolute;
+          top: 20%;
+          left: 7%;
+          width: 380px;
+          height: 380px;
+        }
+
+        .formulario	{
+        	background-color: #333;
+        	position: absolute;
+        	left: 55%;
+        	top: 43%;
+        	padding: 50px 80px 100px 0px;
+        	box-shadow: 0 0 3px 1px;
+        }
+
+        .boton1{
+        	-webkit-border-radius: 7;
+          -moz-border-radius: 7;
+          border-radius: 7px;
+          font-family: Lucida Sans Unicode;
+          color: white;
+          font-size: 20px;
+          background:#333;
+          padding: 0px 10px 0px 10px;
+          border: sólido #000000 2px;
+          text-decoration: none;
+          position:absolute;
+          left: 66%;
+          top: 65%;
+        }
+
+        .boton1:hover {
+          background: #555555;
+          text-decoration: none;
+        }
+        .boton2{
+        	-webkit-border-radius: 7;
+          -moz-border-radius: 7;
+          border-radius: 7px;
+          color: white;
+          font-family: Lucida Sans Unicode;
+          font-size: 20px;
+          background:#333;
+          padding: 0px 10px 0px 10px;
+          border: sólido #000000 2px;
+          text-decoration: none;
+          position:absolute;
+          left: 52%;
+          top: 30%;
+        }
+
+        .boton2:hover {
+          background: #555555  ;
+          text-decoration: none;
+        }
+
+        .boton3{
+        	-webkit-border-radius: 7;
+          -moz-border-radius: 7;
+          border-radius: 7px;
+          font-family: Lucida Sans Unicode;
+          color: white;
+          font-size: 20px;
+          background:#333;
+          padding: 0px 10px 0px 10px;
+          border: sólido #000000 2px;
+          text-decoration: none;
+          position:absolute;
+          left: 65%;
+          top: 30%;
+        }
+
+        .boton3:hover {
+          background:  #555555;
+          text-decoration: none;
+        }
+
+        .boton4{
+        	-webkit-border-radius: 7;
+          -moz-border-radius: 7;
+          border-radius: 7px;
+          font-family: Lucida Sans Unicode;
+          color: white;
+          font-size: 20px;
+          background:#333;
+          padding: 0px 10px 0px 10px;
+          border: sólido #000000 2px;
+          text-decoration: none;
+          position:absolute;
+          left: 81%;
+          top: 30%;
+        }
+
+        .boton4:hover {
+          background: #555555;
+          text-decoration: none;
+        }
+}
+
+@media (max-width: 1280px) and (max-height: 800px) {
+    body {
+
+          }
+          .titulo{
+            position: absolute;
+            width: 500px;
+            left: 10%;
+            top: -1%;
+            font-family: Lucida Sans Unicode;
+            font-size: 40px;
+            color: black;
+          }
+
+        .logo{
+          position: absolute;
+          top: 20%;
+          left: 7%;
+          width: 380px;
+          height: 380px;
+        }
+
+        .formulario	{
+        	background-color: #333;
+        	position: absolute;
+        	left: 55%;
+        	top: 43%;
+        	padding: 50px 80px 100px 0px;
+        	box-shadow: 0 0 3px 1px;
+        }
+
+        .boton1{
+        	-webkit-border-radius: 7;
+          -moz-border-radius: 7;
+          border-radius: 7px;
+          font-family: Lucida Sans Unicode;
+          color: white;
+          font-size: 20px;
+          background:#333;
+          padding: 0px 10px 0px 10px;
+          border: sólido #000000 2px;
+          text-decoration: none;
+          position:absolute;
+          left: 66%;
+          top: 65%;
+        }
+
+        .boton1:hover {
+          background: #555555;
+          text-decoration: none;
+        }
+        .boton2{
+        	-webkit-border-radius: 7;
+          -moz-border-radius: 7;
+          border-radius: 7px;
+          color: white;
+          font-family: Lucida Sans Unicode;
+          font-size: 20px;
+          background:#333;
+          padding: 0px 10px 0px 10px;
+          border: sólido #000000 2px;
+          text-decoration: none;
+          position:absolute;
+          left: 52%;
+          top: 30%;
+        }
+
+        .boton2:hover {
+          background: #555555  ;
+          text-decoration: none;
+        }
+
+        .boton3{
+        	-webkit-border-radius: 7;
+          -moz-border-radius: 7;
+          border-radius: 7px;
+          font-family: Lucida Sans Unicode;
+          color: white;
+          font-size: 20px;
+          background:#333;
+          padding: 0px 10px 0px 10px;
+          border: sólido #000000 2px;
+          text-decoration: none;
+          position:absolute;
+          left: 65%;
+          top: 30%;
+        }
+
+        .boton3:hover {
+          background:  #555555;
+          text-decoration: none;
+        }
+
+        .boton4{
+        	-webkit-border-radius: 7;
+          -moz-border-radius: 7;
+          border-radius: 7px;
+          font-family: Lucida Sans Unicode;
+          color: white;
+          font-size: 20px;
+          background:#333;
+          padding: 0px 10px 0px 10px;
+          border: sólido #000000 2px;
+          text-decoration: none;
+          position:absolute;
+          left: 81%;
+          top: 30%;
+        }
+
+        .boton4:hover {
+          background: #555555;
+          text-decoration: none;
+        }
+}

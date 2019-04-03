@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<?php
+
+  $documento=$_REQUEST['documento'];
+  $nombre=$_REQUEST['nombre'];
+  $apellido=$_REQUEST['apellido'];
+  $correo = $_REQUEST['correo'];
+ 	$opc=$_REQUEST['opc'];
+ 	$conex=mysqli_connect("localhost","root","","mydb") or die ("error 1");
+
+
+  switch($opc)
+   {
+  	case 4:
+
+
+            mysqli_query($conex,"insert into coordinador(Documento_Coordinador,Nombre,Apellido,Correo_Electronico,password)
+              values($documento, '$nombre','$apellido', '$correo',$documento)")  or die("problemas en el select".mysql_error());
+
+            echo "el usuario fue registrado con exito como coordinador";
+
+            mysqli_close($conex);
+
+
+
+
+  		break;
+
+      case 5:
+
+			mysqli_query($conex,"insert into lider(Documento_Li,Nombre,Apellido,Correo_Electronico,password)
+				values($documento, '$nombre','$apellido', '$correo',$documento)")  or die("problemas en el select".mysql_error());
+
+			echo "el usuario fue registrado con exito como lider";
+
+			mysqli_close($conex);
+
+
+
+  	     break;
+
+
+
+  	default:
+
+
+  }
+
+
+	?>
+
+
+</body>
+</html>

@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	
+	<title>Modificar Competencias</title>
+<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
+	<link rel="stylesheet" href="css/fontello.css">
+	<link rel="stylesheet" href="css/estilos.css">
+	
+<link rel="stylesheet" href="css/estilo menu.css">
+
+<link rel="stylesheet" href="estilos/estilo menu.css">
+
+<style>
+		
+p.rol{
+color: white;
+	width: 200px;
+	height: 37px;
+	margin: 100px;
+	background-color: #333;
+	position: relative; 
+	text-align: center;
+	font-size: 25px;
+	left: -80px; 
+	top: -40px;
+	font-family: Lucida Sans Unicode;
+	padding: -10px -10px;
+
+}
+
+p.titulo{
+	width: 500px;
+	position: relative;
+	text-align: relative ;
+	font-size: 27px;
+	left: 470px;
+	top: -180px;
+	font-family: Lucida Sans Unicode;
+}
+
+select.selectprograma {
+	padding: 10px 10px;
+	position: absolute;
+	top: 165px;
+	left:500px;
+}
+select.selecttrimestre {
+
+    padding: 10px 10px; 
+	position: absolute;
+	top: 165px;
+	left: 700px;
+
+}
+
+table
+{
+
+	border-collapse: collapse;
+	width: 800px;
+	position: absolute;
+	left: 300px;
+	top: 210px;
+	height: 300px;
+	background-color: white;
+
+
+}
+
+table tr td  {
+	border: 3px solid black;
+}
+
+table tr th {
+	border: 3px solid black;
+}
+
+.boton2 {
+	 -webkit-border-radius: 7;
+  -moz-border-radius: 7;
+  border-radius: 7px;
+  color: white;
+  font-size: 20px;
+  background: #333;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  position: absolute;
+  left: 1110px;
+  bottom: 50px;
+ 
+
+}
+
+.boton1 {
+  -webkit-border-radius: 7;
+  -moz-border-radius: 7;
+  border-radius: 7px;
+  color: white;
+  font-size: 20px;
+  background: #333;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  position: absolute;
+  left: 900px;
+  bottom: 50px;
+
+}
+
+.logofondo{
+	position: absolute;
+	height:110%; 
+	width:70%;
+	left:235px ;
+	top:20px ;
+	z-index: -1;
+	opacity: 0.7;
+}
+</style>
+
+</head>
+
+<body>
+<img src="img/1.png" class="logofondo">
+<p class="rol">COORDINADOR</p>
+
+	<p class="titulo">MODIFICAR  COMPETENCIAS</p>
+
+
+
+   
+	<select class="selectprograma">
+        <option>PROGRAMA</option>
+		<option>ADSI</option>
+		<OPTION>MDC</OPTION>
+		<option>DIM</option>
+		<option>TEA</option>
+		<OPTION>TPS</OPTION>
+</select> 
+
+<SELECT class="selecttrimestre">
+	<option>TRIMESTRE</option>
+	<option>I</option>
+	<option>II</option>
+	<option>III</option>
+	<option>IV</option>
+	<option>V</option>
+	<option>VI</option>
+</SELECT>
+
+
+<table border="1">
+	
+
+<tr>
+
+    <th>Nombre Del Programa</th>
+    <th>Duracion Del programa</th>
+    <th>Competencias</th>
+  </tr>
+  <tr>
+    <td>Analisis y Desarrollo De Sistemas De Informacion</td>
+    <td></td>
+    <td></td>	
+</tr>
+<tr>
+	<td>Gestion de Redes de Datos</td>
+	<td></td>
+	<td></td>
+</tr>
+<TR>
+	<td>Diseño E Implementacion de Multimedia</td>
+	<td></td>
+	<td></td>
+</TR>
+<TR>
+	<td>Tecnico en Elaboracion de Audivisuales</td>
+	<td></td>
+	<td></td>
+</TR>
+<TR>
+	<TD>Tencico en Programacion de Software</TD>
+	<td></td>
+	<td></td>
+</TR>
+
+<TR>
+	<TD>Producccion de Multimedia</TD>
+	<td></td>
+	<td></td>
+</TR>
+
+
+<TR>
+	<TD>Mantenimiento de Equipos de Computo, Diseño e Instalacion de Cableado Estructurado</TD>
+	<td></td>
+	<td></td>
+</TR>
+
+
+  
+  </table>
+
+  <a href="Bienvenida Coordinador.html"><button type="button" onclick="" class="boton1">Guardar Cambios</button></a>
+
+  <a href="Modificar Competencias.html"><button type="button" onclick="" class="boton2"> Cancelar</button></a>
+<header>
+	<div class="contenedor">
+		<img class="logo" src="img/logo.png">
+		<h1 class=""> Horarios </h1>
+		<input type="checkbox" id="menu-bar">
+		<label class="icon-menu" for="menu-bar"></label>
+		<nav class="menu">
+			<a href="Bienvenida Coordinador.html">Inicio</a>
+			<a href="Registro de Usuario.html">Registro de Usuario</a>
+			<a href="Registro Sedes.html">Registro de Sedes</a>
+			<a href="Modificar Competencias.html">Modificar Competencias</a>
+			<a href="INDEX2.html">Cerrar Sesion</a>
+			
+		</nav>
+	</div>
+</header>
+	
+</body>
+</html>

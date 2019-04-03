@@ -1,0 +1,181 @@
+
+
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>SISTEMA DE HORARIOS</title>
+
+<link rel="stylesheet" href="css/estilo menu.css">
+
+<style type="text/css">
+	
+p.rol {
+color: white;
+	width: 159px;
+	height: 37px;
+	margin: 100px;
+	background-color: #333;
+	position: relative; 
+	text-align: center;
+	font-size: 20px;
+	left: -80px; 
+	top: -40px;
+	font-family: Lucida Sans Unicode;
+	padding: -15px -15px;
+
+}
+
+p.titulobienvenida {
+	width: 700px;
+	position: absolute;
+	text-align: center;
+	font-size: 70px;
+	left: 350px;
+	top: 200px;
+	font-family: Lucida Sans Unicode;
+}
+#c{
+	position: absolute;
+	top: 750px;
+}
+.logofondo{
+	position: absolute;
+	height:110%; 
+	width:70%;
+	left:235px ;
+	top:20px ;
+	z-index: -1;
+	opacity: 0.5;
+}
+.logofondo{
+	position: absolute;
+	height:110%; 
+	width:70%;
+	left:235px ;
+	top:20px ;
+	z-index: -1;
+	opacity: 0.7;
+}
+.form{
+	background-color:#8C8C8C;
+	position: absolute;
+	left: 30%;
+	top: 25%;
+	padding: 10px 250px 150px 0px;
+	box-shadow: 0 0 3px 1px;
+}
+.te{
+	position: absolute;
+	left: 35%;
+	top: 15%;
+
+}
+.ty{
+	position: absolute;
+	left: 35%;
+	top: 40%;
+}
+.tu{
+	position: absolute;
+	left: 35%;
+	top: 65%;
+}
+ .h3{
+ 	position: relative;
+ 	left: 40%;
+ 	text-align: center;
+ }
+ #botona {
+	 -webkit-border-radius: 7;
+  -moz-border-radius: 7;
+  border-radius: 7px;
+  color: white;
+  font-size: 20px;
+  background: #333;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  position: absolute;
+  left: 15%;
+  bottom: 30px;
+}
+
+#botonb {
+ -webkit-border-radius: 7;
+  -moz-border-radius: 7;
+  border-radius: 7px;
+  color: white;
+  font-size: 20px;
+  background: #333;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  position: absolute;
+  left: 65%;
+  bottom: 30px;
+}
+</style>
+<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
+	<link rel="stylesheet" href="css/fontello.css">
+	<link rel="stylesheet" href="css/estilos.css">
+	
+<link rel="stylesheet" href="css/estilo menu.css">
+
+<link rel="stylesheet" href="estilos/estilo menu.css">
+
+</head>
+<body>
+
+	<p class="rol">LIDER CEET</p>
+
+	
+
+<header>
+	<div class="contenedor">
+		<img class="logo" src="img/logo.png">
+		<h1 class=""> Horarios </h1>
+		<input type="checkbox" id="menu-bar">
+		<label class="icon-menu" for="menu-bar"></label>
+		<nav class="menu">
+			<a href="Bienvenida Lider.html">inicio</a>
+			<a href="Asignacion de competencias.html">Asignación de competencias</a>
+			<a href="Asignacion de Horarios.html">Asignar horarios</a>
+			<a href="Registro de Ambientes.html">Asignar Ambientes</a>
+			<a href="INDEX2.html">Cerrar Sesion</a>
+			
+		</nav>
+	</div>
+</header>
+	<br><br>
+	<br><br>
+	<br><br>
+	<br><br>
+	
+<form  action="registro ambiente.html" method="POST" class="form">
+
+	      <select name='sede'>Seleccione Sede
+				
+		      
+		    </select>
+		<h2 class="h3">Nombre Ambiente</h2>
+		<input type="text" class="te" name="nombreambiente">
+		<br><br><br>
+		<h2 class="h3">Capacidad de Aprendices</h2>
+		<input type="text" class="ty" name="capacidad">
+		<br>
+		<br>
+		<br>
+		<h2 class="h3">Cantidad de Computadores</h2>
+		<input type="text" class="tu" name="cantidad">
+
+
+		<a href="Bienvenida lider.html"><button type="button" onclick="" id="botona">Cancelar</button></a>
+	 <button type="submit"  id="botonb">Registrar</button></a>
+</form>
+
+
+<img src="img/1.png" class="logofondo">
+
+</body>
+</html>

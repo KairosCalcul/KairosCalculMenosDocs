@@ -1,0 +1,243 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Asignacion de competencias</title>
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
+	<link rel="stylesheet" href="css/fontello.css">
+	<link rel="stylesheet" href="css/estilos.css">
+	
+<link rel="stylesheet" href="css/estilo menu.css">
+
+
+
+	<style type="text/css">
+		
+p.rol {
+	color: white;
+	width: 100px;
+	height: 37px;
+	margin: 100px;
+	background-color: #333;
+	position: relative; 
+	text-align: center;
+	font-size: 25px;
+	left: -80px; 
+	top: -30px;
+	font-family: Lucida Sans Unicode;
+	padding: -10px -10px;
+
+}
+
+p.titulo {
+	width: 500px;
+	position: relative;
+	text-align: relative ;
+	font-size: 27px;
+	left: 470px;
+	top: -165px;
+	font-family: Lucida Sans Unicode;
+}
+
+table tr td {
+	border: 3px solid black;
+	padding: 30px 80px 30px 80px; 
+
+}
+
+table {
+	border-collapse: collapse;
+	position: relative;
+	bottom: 65px;
+	left: 150px;
+	background-color:white;
+}
+
+select.lista1 {
+	position: absolute;
+	top: 150px;
+	left: 305px;
+	padding: 10px 10px 10px 10px;
+	height: 50px;
+	width: 180px;
+}
+
+select.lista2 {
+	position: absolute;
+	top: 150px;
+	left: 500px;
+	padding: 10px 10px 10px 10px;
+	height: 50px;
+	width: 180px;
+}
+
+select.lista3 {
+	position: absolute;
+	top: 150px;
+	left: 870px;
+	padding: 10px 10px 10px 10px;
+	height: 50px;
+	width: 180px;
+}
+
+.flecha {
+	height: 60px;
+	width: 60px;
+	position: absolute;
+	left: 750px;
+	top: 140px;
+}
+
+.Boton{
+	-webkit-border-radius: 7;
+  -moz-border-radius: 7;
+  border-radius: 7px;
+  
+  font-family: Lucida Sans Unicode;
+  color: white;
+  font-size: 20px;
+  background:#333;
+  padding: 0px 10px 0px 10px;
+  border: sólido #555555 2px;
+  text-decoration: none;
+  position:absolute;
+  left: 65%;
+  top: 90%;
+}
+.Boton:hover {
+  background: #555555;
+  text-decoration: none;
+}
+
+.Boton1{
+	-webkit-border-radius: 7;
+  -moz-border-radius: 7;
+  border-radius: 7px;
+  
+  font-family: Lucida Sans Unicode;
+  color: white;
+  font-size: 20px;
+  background:#333;
+  padding: 0px 10px 0px 10px;
+  border: sólido #555555 2px;
+  text-decoration: none;
+  position:absolute;
+  left: 75%;
+  top: 90%;
+}
+.Boton1:hover {
+  background: #555555;
+  text-decoration: none;
+}
+.kl{
+	position: absolute;
+	height:110%; 
+	width:70%;
+	left:235px ;
+	top:20px ;
+	z-index: -1;
+	opacity: 0.7;
+}
+
+	</style>
+
+
+
+</head>
+<body>
+<header>
+	<div class="contenedor">
+		<img class="logo" src="img/logo.png">
+		<h1 class=""> Horarios </h1>
+		<input type="checkbox" id="menu-bar">
+		<label class="icon-menu" for="menu-bar"></label>
+		<nav class="menu">
+			<a href="Bienvenida Lider.html">inicio</a>
+			<a href="Asignacion de competencias.html">Asignación de competencias</a>
+			<a href="Asignacion de Horarios.html">Asignar horarios</a>
+			<a href="Registro de Ambientes.html">Asignar Ambientes</a>
+			<a href="INDEX2.html">Cerrar Sesion</a>
+			
+		</nav>
+	</div>
+</header>
+	<img src="img/1.png" class="kl">
+	<p class="rol">LIDER</p>
+
+
+	<p class="titulo">ASIGNACIÓN DE COMPETENCIAS</p>
+
+
+
+
+<select class="lista1">
+ <option value="">PROGRAMA</option>
+ <option value="">Analisis y Desrrollo De Sistemas de Informacion </option>
+ <option value="">Tecnico Pogramacion Software </option>
+ <option value="">Tecnico Elavoracion De Audiovisuales </option>
+ <option value="">Diseño e Implementacion De Multimedia </option>
+ <option value="">Produccion De Multimendia </option>
+ <option value="">Gestion De Redes De Datos </option>
+ <option value="">Tecnologo en Mantenimiento De Equipos De Computo, Diseño e Instalcion De Cableado Estructural</option>
+
+</select>
+
+<select class="lista2">
+ <option value="">TRIMESTRE</option>
+ <option value="">1</option>
+ <option value="">2</option>
+ <option value="">3</option>
+ <option value="">4</option>
+ <option value="">5</option>
+ <option value="">6</option>
+</select>
+
+<select class="lista3">
+ <option value="">COMPETENCIA</option>
+ <option value="">#1</option>
+ <option value="">#2</option>
+ <option value="">#3</option>
+ <option value="">#4</option>
+ <option value="">#5</option>
+ <option value="">#6</option>
+</select>
+
+<img class="flecha" src="img/flecha.png">
+
+
+<table>
+<tr>
+	<td rowspan="4">Instructor X 
+		<p> 6 AM - 2 PM </p>
+	</td>
+	<td rowspan="4">Ambiente 
+		<p> 302	</p>
+		<p> 6 AM - 2 PM </p>
+	</td>
+	<td rowspan="2">competencia #1</td>
+	<td>resultado #1</td>
+</tr>
+
+<tr>
+	<td>resultado #2</td>
+</tr>
+
+<tr>
+	<td rowspan="2">competencia #2</td>
+	<td> resultado #3</td>
+</tr>
+
+<tr>
+	<td> resultado #4</td>
+</tr>	
+</table>
+
+	<a href="Asignacion de competencias.html"><button type="button" onclick="" class="Boton"> Cancelar</button>a>
+	<a href="Asignacion de horarios.html"><button type="button" onclick="" class="Boton1">Siguiente</button></a>
+
+	
+</body>
+</html>

@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	
+	<title>SISTEMA DE HORARIOS</title>
+<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
+	<link rel="stylesheet" href="css/fontello.css">
+	<link rel="stylesheet" href="css/estilos.css">
+	
+<link rel="stylesheet" href="css/estilo menu.css">
+
+<style type="text/css">
+	
+p.rol{
+	color: #fff;
+
+	background:  #333;
+	width: 159px;
+	height: 37px;
+	margin: 100px;
+	
+	position: relative; 
+	text-align: center;
+	font-size: 20px;
+	left: -80px; 
+	top: -35px;
+	font-family: 'Open Sans', sans-serif;
+	padding: -15px -15px;
+
+}
+
+p.titulo {
+	width: 700px;
+	position: relative;
+	text-align: relative ;
+	font-size: 25px;
+	left: 370px;
+	top: -170px;
+	font-family: Lucida Sans Unicode;
+}
+
+ p.c {
+ 	background: #6ED938;
+	width: 210px;
+	margin: 100px;
+
+	position: absolute;
+	text-align: relative ;
+	font-size: 20px;
+	left: 100px;
+	top: 107px;
+	font-family: Lucida Sans Unicode;
+
+
+}
+
+table{
+	font-family: lucida Sans Unicode;
+	border-collapse: collapse;
+	width: 80%;
+	position: absolute;
+	left: 150px;
+	top: 330px;
+	background: white;
+
+}
+
+ td, th {
+	border: 2px solid black;
+	text-align: left;
+	padding: 8px;
+	
+	
+}
+
+
+table.tablasecundaria {
+	font-family: lucida Sans Unicode;
+	
+	border-collapse: collapse;
+	width: 25%;
+	height: 20px;
+	position: absolute;
+	left: 899px;
+	top: 180px;
+	background: white;
+}
+
+img.imprimirhorario {
+	position: absolute;
+	left: 1260px;
+	top: 580px;
+	width:50px;
+	height: 50px;
+
+}
+
+.logofondo{
+	position: absolute;
+	height:100%; 
+	width:100%;
+	left:10px ;
+	top:20px ;
+	z-index: -1;
+	opacity: 0.7;
+}
+.boton{
+	-webkit-border-radius: 7;
+  -moz-border-radius: 7;
+  border-radius: 7px;
+  
+  font-family: Lucida Sans Unicode;
+  color: white;
+  font-size: 20px;
+  background:#333;
+  padding: 0px 10px 0px 10px;
+  border: sólido #555555 2px;
+  text-decoration: none;
+  position:absolute;
+  left: 80%;
+  top: 95%;
+}
+.boton:hover {
+  background: #555555;
+  text-decoration: none;
+}
+
+</style>
+</head>
+<body >
+	<img src="img/1.png" class="logofondo">
+	<header>
+	<div class="contenedor">
+		<img class="logo" src="img/logo.png">
+		<h1 class=""> Horarios </h1>
+		<input type="checkbox" id="menu-bar">
+		<label class="icon-menu" for="menu-bar"></label>
+		<nav class="menu">
+			
+			
+		</nav>
+	</div>
+</header>
+	<p class="rol">APRENDIZ</p>
+
+	<p class="titulo">PROGRAMACION DE HORARIOS GRUPO DE FORMACION</p>
+
+	
+
+<table>
+	<tr>
+    <th>Instructor</th>
+    <th>Competencias</th>
+    <th>Resultado Aprendizaje</th>
+    <th>Ambiente-hora</th>
+    <th>Dia</th>
+  </tr>
+  <tr>
+    <td>Roger Londoño</td>
+    <td>Competencia #1</td>
+    <td>Resultado #1</td>
+    <td>302- 12:00 PM - 2:00 PM </td>
+    <TD> Lunes-Viernes</TD>
+  </tr>
+  <tr>
+    <td> Miguel Lopez</td>
+    <td>Competencia #2</td>
+    <td>Resultado #2</td>
+    <td>302- 2:00 PM - 6:00 PM </td>
+    <TD> Lunes-Viernes</TD>
+  </tr>
+  <tr>
+    <td>Hernan Dario Rojas</td>
+    <td>Comptencia #1</td>
+    <td>Resultado #1</td>
+    <td>102- 8:00 AM - 12:00 PM </td>
+    <TD> Lunes</TD>
+  </tr>
+  <tr>
+    <td>Nathalia Gomez</td>
+    <td>Competencia #1</td>
+    <td>Resultado #1</td>
+    <td>401 - 10:00 Am- 12:00 Pm </td>
+    <TD> Martes </TD>
+  </tr>
+ 
+</table>
+
+
+
+
+<TABLE class="tablasecundaria">
+	<tr>
+		<th>Trimestre </th>
+		<td>II-2018</td>
+	</tr>
+
+	<tr>
+		<th>Fecha Inicio</th>
+		<td>16/04/18</td>
+	</tr>
+
+	<tr>
+		<th>Fecha Fin</th>
+		<td>30/06/18</td>
+	</tr>
+</TABLE>
+<a href="INDEX.html"><button type="button" onclick="" class="boton"> Atras</button></a>
+<a href="Imprimir Horario.html"><img src="img/Imprimir.Png" class="imprimirhorario"></a>
+
+</body>
+</html>

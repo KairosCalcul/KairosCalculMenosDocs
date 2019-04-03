@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>SISTEMA DE HORARIOS</title>
+
+<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
+	<link rel="stylesheet" href="css/fontello.css">
+	<link rel="stylesheet" href="css/estilos.css">
+	
+<link rel="stylesheet" href="css/estilo menu.css">
+
+<link rel="stylesheet" href="estilos/estilo menu.css">
+
+
+<style type="text/css">
+	
+p.rol {
+	color: white;
+	width: 100px;
+	height: 37px;
+	margin: 100px;
+	background-color: #333;
+	position: relative; 
+	text-align: center;
+	font-size: 25px;
+	left: -45px; 
+	top: -30px;
+	font-family: Lucida Sans Unicode;
+	padding: -10px -10px;
+
+}
+
+p.titulo {
+	width: 500px;
+	position: relative;
+	text-align: relative ;
+	font-size: 27px;
+	left: 470px;
+	top: -165px;
+	font-family: Lucida Sans Unicode;
+}
+
+p.subtitulo {
+	background: white;
+	color: white;
+	width: 204px;
+	height: 40px;
+	margin: 100px;
+	background-color: #333;
+	position: absolute; 
+	text-align: center;
+	font-size: 25px;
+	left: 90px;
+		top: 30px;
+	font-family: Lucida Sans Unicode;
+	padding: -10px -10px;
+}
+
+p.subtitulo1 {
+	color: white;
+	width: 204px;
+	height: 40px;
+	margin: 100px;
+	background-color: #333;
+	position: absolute; 
+	text-align: center;
+	font-size: 25px;
+	left: 800px;
+		top: 30px;
+	font-family: Lucida Sans Unicode;
+	padding: -10px -10px;
+}
+
+#iframeuno {
+	background: white;
+	height: 306px;
+		width: 200px;
+		position: absolute;
+		left: 190px;
+		top: 170px;
+}
+
+#iframedos {
+	background: white;
+	height: 306px;
+		width: 200px;
+		position: absolute;
+		left: 900px;
+		top: 170px;
+}
+
+
+.flecha{
+	height: 100px;
+		width: 100px;
+		position: absolute;
+		left: 600px;
+		top: 270px;
+}
+
+#botona {
+	 -webkit-border-radius: 7;
+  -moz-border-radius: 7;
+  border-radius: 7px;
+  color: white;
+  font-size: 20px;
+  background: #333;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  position: absolute;
+  left: 1000px;
+  bottom: 90px;
+}
+
+#botonb {
+ -webkit-border-radius: 7;
+  -moz-border-radius: 7;
+  border-radius: 7px;
+  color: white;
+  font-size: 20px;
+  background: #333;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  position: absolute;
+  left: 1150px;
+  bottom: 90px;
+}
+
+.logosena{
+	position: absolute;
+	height:110%; 
+	width:70%;
+	left:235px ;
+	top:20px ;
+	z-index: -1;
+	opacity: 0.7;
+}
+
+</style>
+
+
+</head>
+<body> 
+<img src="img/1.png" class="logosena">
+
+	<p class="rol">LIDER</p>
+
+	<p class="titulo">ASIGNACIÓN DE HORARIOS</p>
+
+
+
+
+<header>
+	<div class="contenedor">
+		<img class="logo" src="img/logo.png">
+		<h1 class=""> Horarios </h1>
+		<input type="checkbox" id="menu-bar">
+		<label class="icon-menu" for="menu-bar"></label>
+		<nav class="menu">
+			<a href="Bienvenida Lider.html">inicio</a>
+			<a href="Asignacion de competencias.html">Asignación de competencias</a>
+			<a href="Asignacion de Horarios.html">Asignar horarios</a>
+			<a href="Registro de Ambientes.html">Asignar Ambientes</a>
+			<a href="INDEX2.html">Cerrar Sesion</a>
+			
+		</nav>
+	</div>
+</header>
+
+	<p class="subtitulo">DISPONIBILIDAD</p>
+
+	<iframe src="tabla/tabla.html" frameborder="1" id="iframeuno"></iframe>
+
+<img class="flecha" src="img/flecha.png">
+
+	<iframe src="tabla/tabla dos.html" frameborder="1" id="iframedos"></iframe>
+
+	<p class="subtitulo1">AMBIENTE</p>
+
+	<a href="Asignacion de horarios.html"><button type="button" onclick="" id="botona">Cancelar</button></a>
+	<a href="Bienvenida Lider.html"><button type="button" onclick="" id="botonb">Finalizar</button></a>
+
+</body>
+</html>

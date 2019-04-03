@@ -1,0 +1,75 @@
+
+		* {
+			padding: 0px;
+			margin: 0px;
+		
+		}
+
+		#header {
+			margin: auto;
+			width: 130px;
+			text-align: center;
+			position: absolute;
+			left: 600px;
+			padding: 38px;
+
+
+			
+		}
+
+
+		ul, ol {
+			list-style: none;
+
+		}
+
+
+		
+
+		li.an a {
+			background-color: #33cc33;
+			color: orange;
+			text-decoration: none;
+			padding: 10px 15px;
+			display: block;
+		}
+
+		li.an a:hover {
+			background-color: #248f24;
+			transition : all, 0.5s;
+
+		}
+
+		li.Menu a {
+			background-color: orange;
+			color: ora;
+			text-decoration: none;
+			padding: 10px 15px;
+			display: block;
+			-webkit-transition: all 3s ease;
+			-moz-transition: all 1.5s ease;
+			-ms-transition: all 1.5s ease;
+			-o-transition: all 1.5s ease;
+			transition: all 1.5s ease;
+			font-size: 18px
+			
+		}
+
+		.nav li ul {
+			display: none;
+
+		}
+
+
+		
+		.nav li:hover > ul {
+			display: block;
+		
+
+		}
+
+
+		.nav {
+ 		 position: relative;
+ 			left:570px;
+			top: -250px;
